@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <title>Home</title>
+    <meta name=”viewport” content="width=device-width, initial-scale=1" charset="utf-8">
+
+</head>
+
+<body>
+
+    <ul class="toolbar">
+        <li class="list"><p>Line</p></li>
+        <li class="list"><p>Color</p></li>
+        <li class="list"><p>1</p></li>
+        <li class="list"><p>2</p></li>
+        <li class="list"><p>Randomize Scene</p></li>
+        <li class="list"><p>Clear Scene</p></li>
+    </ul>
+
+</body>
+
+
+<style>
+
+    :root {
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+    color-scheme: light dark;
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    }
+
+    html {
+        margin: 0;
+        padding: 0;
+        /*background-color: #3e3e3e; replaced by root css*/
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #333333;
+    }
+
+    .toolbar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+
+    .list {
+        display: inline-block;
+        padding: 10px;
+        border: 3px solid gray;
+        margin: 10px;
+        border-radius: 10px;
+        min-width: 100px;
+        max-width: fit-content;
+        height: 20px; /* hacky fix because it wasnt working with padding */
+        background-color: #333333;
+        -webkit-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
+    }
+    .list:hover {
+        background-color: #909090;
+        -webkit-transition: background-color 200ms linear;
+        -ms-transition: background-color 200ms linear;
+        transition: background-color 200ms linear;
+    }
+
+    .list p {
+        text-align: center;
+        color: #cdcdcd;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
